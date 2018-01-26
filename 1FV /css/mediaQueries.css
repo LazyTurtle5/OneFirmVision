@@ -1,0 +1,263 @@
+/*********************************
+MEDIA QUERIES
+*********************************/
+
+@media (min-width: 360px) {
+    .logotext {
+        margin-left: 80px;
+    }
+
+    .signupfield,
+    .signupbutton {
+        margin-left: 5%;
+    }
+
+    .scroller {
+        height: 950px;
+    }
+
+    .bhello {
+        margin-left: 15%;
+    }
+
+    .border img {
+        margin-left: 25%;
+    }
+
+    .no-5 {
+        height: 620px;
+    }
+
+    .form {
+        margin-left: 12%;
+    }
+}
+
+@media (min-width: 375px) {
+    .formhead {
+        margin-left: 3%;
+    }
+
+    .form {
+        margin-left: 15%;
+    }
+}
+
+@media (min-width: 412px) {
+    .logotext {
+        margin-left: 100px;
+    }
+
+    .signupfield,
+    .signupbutton {
+        margin-left: 10%;
+    }
+
+    .bhello {
+        margin-left: 20%;
+    }
+
+    .border img {
+        margin-left: 28%;
+    }
+
+    .no-5 {
+        height: 590px;
+    }
+
+    .form {
+        margin-left: 18%;
+    }
+}
+
+@media (min-width: 480px) {
+    .logotext {
+        margin-left: 10%;
+    }
+
+    .formhead {
+        margin-left: 8%;
+    }
+
+    .infohead {
+        padding: 0 5%;
+    }
+
+    .signupfield {
+        margin-top: 50px;
+    }
+
+    .scroller {
+        height: 1050px;
+    }
+
+    .bhello {
+        margin-left: 25%;
+    }
+
+    .border img {
+        margin-left: 30%;
+    }
+
+    .no-6 {
+        margin-top: -70px;
+    }
+
+    .form {
+        margin-left: 22.5%;
+    }
+}
+
+@media (min-width: 640px) {
+    .signupfield {
+        margin-top: 0;
+    }
+
+    .formhead {
+        margin-left: 0;
+    }
+
+    .bhello {
+        margin-left: 30%;
+    }
+
+    .border img {
+        margin-left: 35%;
+    }
+
+    .no-6 {
+        margin-top: -100px;
+    }
+
+    .form {
+        margin-left: 27%;
+    }
+
+    .about {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .history {
+        margin-right: 8%;
+    }
+}
+
+@media (min-width: 768px) {
+    .signupfield,
+    .signupbutton {
+        margin-left: 60px;
+    }
+
+    .single h2 {
+        padding: 0 15% 20px;
+        margin-top: 100px;
+    }
+
+    .single p {
+        padding: 30px 10%;
+    }
+
+    .jumbotron.second {
+        margin-top: 200px;
+    }
+
+    .mobile-image {
+        margin-top: -600px;
+    }
+
+    .textbox h2,
+    #first-para,
+    .downloadtext {
+        text-align: left;
+    }
+
+    .bhello {
+        margin-left: 0;
+    }
+
+    .scroller {
+        height: 650px;
+    }
+
+    .border img {
+        margin-left: 25%;
+    }
+
+    .no-6 {
+        margin-top: -140px;
+        height: 300px;
+    }
+
+    .form {
+        margin-top: 130px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .slogan {
+        padding: 50px 15%;
+        margin-left: 0;
+    }
+
+    .infohead {
+        padding: 0 50px;
+    }
+
+    .formhead {
+        margin-left: 15%;
+        margin-top: 50px;
+    }
+
+     .jumbotron.second {
+        margin-top: 300px;
+    }
+
+    .mobile-image {
+        margin-top: -700px;
+    }
+
+    .border img {
+        margin-left: 30%
+    }
+}
+
+@media (min-width: 1280px) {
+    .formhead {
+        margin-left: 15%;
+    }
+
+    .signupfield {
+        width: 400px;
+        margin-left: 0;
+    }
+
+    .signupbutton {
+        width: 150px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .border img {
+        margin-left: 35%;
+    }
+
+    .no-6 {
+        margin-top: -165px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
