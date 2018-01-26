@@ -1,4 +1,2 @@
 # OneFirmVision
-# Jumpstart
-# Jumpstart
-# Jumpstart
+
