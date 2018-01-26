@@ -1,0 +1,754 @@
+* {
+        -webkit-font-smoothing: antialiased;
+} 
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #1a222d; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from t#1a222dhe top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #337ab7;
+}
+
+/* Position and style the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*********************************
+MY NAVGATION STYLES
+*********************************/
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*********************************
+MY FONT STYLES
+*********************************/
+
+.img-fluid {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.latest-news {
+
+    font-size: 40px;
+    color: #15042a;
+    letter-spacing: 1px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+/*********************************
+JUMBOTRON & NAVIGATION
+*********************************/
+
+.burger {
+    width: 24px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+  
+}
+
+.burger-icon {
+    margin: 20px;
+    width: 20px;
+    position: relative;
+}
+
+
+.logotext {
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.infohead {
+    text-align: center;
+    color: #fff;
+    font-size: 1.6em;
+    line-height: 1.4em;
+    font-weight: 700;
+
+}
+
+.first {
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.slogan {
+    font-size: 40px;
+    color: #fff;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: 60px;
+    line-height: 44px;
+    font-weight: 200;
+}
+
+.signupbutton {
+    margin: 20px 0 0;
+    float: left;
+    border-radius: 0;
+    -webkit-border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -moz-border-radius-bottomright: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 290px;
+    border: none;
+    height: 50px;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    background-color: white;
+    margin-left: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    align-items: flex-start;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.signupbutton {
+    text-decoration: none;
+}
+
+.signupbutton a:hover {
+   
+    background: #fff;
+    color: #000;
+}
+
+.formhead {
+    float: none;
+    position: relative;
+    max-width: 550px;
+    margin: 40px auto;
+
+}
+
+.signupfield {
+    border: 1px solid #fff;
+    /*border-right: 0;*/
+    float: left;
+    border-radius: 0;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width: 290px;
+    border-radius: 2px;
+    height: 50px;
+    color: #fff;
+    background: none;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.navigation {
+    height: 900px;
+    width: 70px;
+    background: #1a222d;
+    margin: -62px 0 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    clear: both;
+    z-index: 1;
+}
+
+.navigation img {
+    padding-top: 40px;
+    padding-left: 20px; 
+}
+
+.navigation p {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.nav-arrow {
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.vertical-text {
+    transform: rotate(270deg);
+    margin-top: 280px;
+    color: #8590a0;
+}
+
+.one-firm-vision {
+    transform: rotate(270deg);
+    margin-top: 150px;
+    color: #fff; 
+}
+
+.bottom-jumbotron-text {
+    background: #1a222d;
+    height: 100px;
+}
+
+.bottom-jumbotron-text p {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/*********************************
+FIRST PARAGRAPH
+*********************************/
+
+.single {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.single h2 {
+    font-size: 40px;
+    color: #15042a;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.single p {
+    font-size: 1.4em;
+    font-weight: 200;
+    color: #120325;
+    letter-spacing: 0.065em;
+    line-height: 1.6em;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.separator {
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: #1080f2;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+.separator-2 {
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: #1080f2;
+    margin-bottom: 30px;
+    margin: 0 auto;
+
+}
+
+/*********************************
+MOBILE
+*********************************/
+
+.jumbotron.second {
+    height: 400px;
+    margin-top: 300px;
+}
+
+.jumbotron.second img {
+   position: absolute;
+   margin-top: 250px;
+   left: 43;
+}
+
+.vertical-text-2 {
+    transform: rotate(270deg);
+    color: #8590a0;
+    position: absolute;
+    left: 0;
+    margin-top: 100px;
+}
+
+.vertical-text-2 p {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.horizontal-text {
+    margin-top: 250px;
+}
+
+.horizontal-text p {
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.nav-arrow-2 {
+    margin-left: 18px;
+}
+
+.mobile-image {
+    max-width: 100%;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*********************************
+FOUR COLUMN LAYOUT
+*********************************/
+
+.columns {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.columns h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.columns p {
+    font-size: 1.2em;
+    color: #9da5b0;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon {
+    width: 40px;
+}
+
+   #imageIcon img {
+        display: block;
+        margin: auto;
+    }
+
+.iconHand {
+    width: 48px;
+}
+
+/*********************************
+TWO COLUMN LAYOUT - full width
+*********************************/
+
+.scroller {
+    height: 1050px;
+}
+
+.textbox {
+    width: 60%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textbox h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+#first-para {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#second-para {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*********************************
+FOURTH JUMBOTRON - slider
+*********************************/
+
+.jumbotron {
+
+    background-color: #edf1f4;
+}
+
+.no-4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    background: #fff;
+}
+
+.fourth {
+    transform: rotate(270deg);
+    color: #8590a0;
+    position: absolute;
+    left: -120;
+    margin-top: 80px;
+}
+
+
+.fourth p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 252px;
+}
+
+.border {
+    border: 2px solid #e9eef1;
+    border-radius: 25px;
+    width: 100%; 
+    float: left;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.border h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #15042a;
+    padding-bottom: 20px;
+    }
+
+.border p {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #9da5b0;
+    padding: 0 10px 10px;
+}
+
+.border a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1b89a8;
+    letter-spacing: 1px;
+}
+
+.border img {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    width: 160px;
+    margin-left: 50px;
+}
+
+.icon-text {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#icon-text {
+    margin-top: 18px;
+}
+
+.carousel {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.carousel-indicators li {
+    background-color: #d8dde0;
+}
+
+.carousel-indicators .active {
+  background-color: #d8dde0;
+}
+
+.carousel-indicators {
+    padding-bottom: 40px;
+}
+
+/*********************************
+JUMBOTRON NO-5
+*********************************/
+
+.no-5 {
+    background: #1a222d;
+    height: 650px;
+    margin-bottom: 0;
+}
+
+.full-quote {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.quote {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.right-speech {
+    padding-top: 3px;
+}
+
+.name,
+.job-title {
+    text-align: center;
+    color: #fff;
+}
+
+.name h1 {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.job-title h3 {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+img.zyen {
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+
+/*********************************
+JUMBOTRON NO-6
+*********************************/
+
+.no-6 {
+    background: #337ab7;
+    height: 400px;
+    margin-bottom: 0;
+    border-radius: 0;
+    margin-top: -30px;
+}
+
+.subscribe p {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 45px;
+}
+
+
+
+.form {
+    margin-left: 23px;
+}
+
+.text {
+    padding-left: 20px;
+}
+
+.form input {
+    height: 34px;
+    width: 250px;
+    background: #337ab7;
+    color: #fff;
+    border: 2px #fff solid;
+    font-weight: 200;
+    letter-spacing: 1px;
+    outline: none;
+    margin-left: 0px;
+}
+
+.form a {
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+
+.btn-own {
+    border: 2px solid white;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-own:hover {
+    background: #33aaa8;
+    color: #fff;
+}
+
+/*********************************
+FOOTER
+*********************************/
+
+.about h3 {
+    color: #337ab7;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+.history h3 {
+    color: #337ab7;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+}
+
+.contact h3 {
+    color: #337ab7;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+.row.footer p {
+    color: #9da5b0;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+.last {
+    padding-bottom: 100px;
+}
+
+.row.footer a {
+    display: block;
+    color: #9da5b0;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 32px;
+}
+
+.col-sm-2.history {
+   padding-left: 15px; 
+   margin-top: -50px;
+
+}
+
+.col-sm-2.contact {
+   margin-top: -50px;
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+  font-size: 16px;
+}
+
+
+.mobileimg {
+
+    width: 90%;
+}
+
+
+.bhello {
+    margin-left: 10%;
+    max-width: 140px;
+    padding: 10px 10px 0 0;
+
+}
+
+.downloadtext {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
